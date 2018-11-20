@@ -1,0 +1,1 @@
+INSERT INTO {schema}.{table}{columns} values {values}
