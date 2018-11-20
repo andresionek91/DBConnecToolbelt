@@ -15,7 +15,7 @@ Use it to connect to our SQL databases. It returns connection objects using
 either `psycopg2`, `records` or `SQLAlchemy`.
 
 ~~~
-from bsatoolbelt.connection import PostgreSQL
+from dbconnectoolbelt.connection import PostgreSQL
 ~~~
 
 #### Available methods
@@ -31,7 +31,7 @@ from bsatoolbelt.connection import PostgreSQL
     * insert_dict_record
 
 ~~~
-from bsatoolbelt import utils
+from dbconnectoolbelt import utils
 ~~~
 
 * utils.format_dict_str - Transform all dict values into strings
